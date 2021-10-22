@@ -121,7 +121,7 @@
       }
     }
   },
-  "name": "Git_project",
+  "name": "Git_project (branch_1)",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -177,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 2,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1634887459315
+    "lastModifiedOn": 1634887461635
   },
   "creationTag": {
     "versionNumber": 0,
@@ -190,7 +190,7 @@
     },
     "lastModifiedOn": 1634833407242
   },
-  "shortDesc": "The project *Git_project* was created by Administrator on Oct 21st 2021",
+  "shortDesc": "The project *Git_project* was created by Administrator on Oct 21st 2021\nThe project *GIT_PROJECT_BRANCH_1* was copied from *GIT_PROJECT* by Administrator on oct. 22nd 2021",
   "tags": [
     "duplicated"
   ],
