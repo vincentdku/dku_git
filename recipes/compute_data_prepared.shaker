@@ -25,8 +25,46 @@
     },
     "autoRefreshSample": false
   },
-  "explorationFilters": [],
-  "exploreUIParams": {},
+  "explorationFilters": [
+    {
+      "validityFilter": {
+        "column": "date_year",
+        "type": "validity",
+        "params": {
+          "nok": false,
+          "type": "LongMeaning",
+          "ok": false,
+          "empty": true
+        }
+      },
+      "column": "date_year",
+      "active": true,
+      "alphanumFilter": {
+        "values": [],
+        "column": "date_year",
+        "type": "alphanum",
+        "params": {
+          "mode": "full_string",
+          "normalization": "exact"
+        }
+      },
+      "type": "columnFilter",
+      "$$hashKey": "object:14797",
+      "facet": {
+        "columnType": "NUMERICAL",
+        "selectedValues": {},
+        "column": "date_year",
+        "sort": "count",
+        "type": "facet",
+        "currentMode": "NUMERICAL"
+      },
+      "currentMode": "FACET"
+    }
+  ],
+  "origin": "PREPARE_RECIPE",
+  "exploreUIParams": {
+    "autoRefresh": true
+  },
   "steps": [],
   "maxProcessedMemTableBytes": -1,
   "previewMode": "ALL_ROWS",
@@ -35,7 +73,13 @@
     "autoRefreshSample": false
   },
   "analysisColumnData": {},
-  "columnWidthsByName": {},
+  "columnWidthsByName": {
+    "tweet_count": 100,
+    "date_year": 100,
+    "date_month": 100,
+    "count": 100,
+    "user": 120
+  },
   "sorting": [],
   "globalSearchQuery": "",
   "coloring": {
