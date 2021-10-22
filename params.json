@@ -122,7 +122,6 @@
     }
   },
   "name": "Git_project",
-  "projectStatus": "Sandbox",
   "metrics": {
     "probes": [],
     "engineConfig": {
@@ -178,11 +177,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1634887451339
+    "lastModifiedOn": 1634887459315
   },
   "creationTag": {
     "versionNumber": 0,
@@ -192,7 +191,9 @@
     "lastModifiedOn": 1634833407242
   },
   "shortDesc": "The project *Git_project* was created by Administrator on Oct 21st 2021",
-  "tags": [],
+  "tags": [
+    "duplicated"
+  ],
   "customFields": {},
   "checklists": {
     "checklists": [
